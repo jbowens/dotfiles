@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/gpfs/main/home/jbowens/course/cs127/projects/sudoku'
+let g:netrw_dirhist_2='/gpfs/main/home/jbowens/course/cs127/projects/sudoku/src'
+let g:netrw_dirhist_3='/gpfs/main/home/jbowens/course/cs127/projects/sudoku/src/sqlasgn'
+let g:netrw_dirhist_4='/gpfs/main/home/jbowens/Oasis-IDE/src/gui'
+let g:netrw_dirhist_5='/gpfs/main/home/jbowens/Oasis-IDE/src/gui/controller'
+let g:netrw_dirhist_6='/gpfs/main/home/jbowens/Oasis-IDE/src/gui'
+let g:netrw_dirhist_7='/gpfs/main/home/jbowens/Oasis-IDE/src/gui/controller'
+let g:netrw_dirhist_8='/Users/jbowens/projects/food-truck-magic/src/routes'
