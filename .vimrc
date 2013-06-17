@@ -32,14 +32,20 @@ set shiftwidth=4
 set smartindent
 colorscheme wombat256mod
 
-" Tab + arrow keys for switching between tabs
-map <up> :tabr<cr>
-map <down> :tabl<cr>
-map <left> :tabp<cr>
-map <right> :tabn<cr>
+"map <up> :tabr<cr>
+"map <down> :tabl<cr>
+"map <left> :tabp<cr>
+"map <right> :tabn<cr>
 
-" Use ctrl-[hjkl] to select the active split!
-nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
-nmap <silent> <c-j> :wincmd j<CR>                                                                                                                       
-nmap <silent> <c-h> :wincmd h<CR>                                                                                                                       
-nmap <silent> <c-l> :wincmd l<CR>
+map <up> :wincmd k<cr>
+map <down> :wincmd j<cr>
+map <left> :wincmd h<cr>
+map <right> :wincmd l<cr>
+
+map <Tab><right> :tabn<cr>
+map <Tab><left> :tabp<cr>
+
+"nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
+"nmap <silent> <c-j> :wincmd j<CR>                                                                                                                       
+"nmap <silent> <c-h> :wincmd h<CR>                                                                                                                       
+"nmap <silent> <c-l> :wincmd l<CR>
