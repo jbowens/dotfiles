@@ -6,6 +6,7 @@ filetype plugin on
 filetype indent on
 
 let &t_Co=256
+set t_Co=256
 set autoread
 set wildmenu
 set wildignore=*.o,*.pyc,*.javac
@@ -29,15 +30,16 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set smartindent
-colorscheme molokai
+colorscheme wombat256mod
 
+" Tab + arrow keys for switching between tabs
+map <up> :tabr<cr>
+map <down> :tabl<cr>
+map <left> :tabp<cr>
+map <right> :tabn<cr>
 
-map <Tab><up> :tabr<cr>
-map <Tab><down> :tabl<cr>
-map <Tab><left> :tabp<cr>
-map <Tab><right> :tabn<cr>
-
-nnoremap <silent> <C-Right> <c-w>l
-nnoremap <silent> <C-Left> <c-w>h
-nnoremap <silent> <C-Up> <c-w>k
-nnoremap <silent> <C-Down> <c-w>j
+" Use ctrl-[hjkl] to select the active split!
+nmap <silent> <c-k> :wincmd k<CR>                                                                                                                       
+nmap <silent> <c-j> :wincmd j<CR>                                                                                                                       
+nmap <silent> <c-h> :wincmd h<CR>                                                                                                                       
+nmap <silent> <c-l> :wincmd l<CR>
