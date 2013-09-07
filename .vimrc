@@ -1,5 +1,6 @@
 augroup filetypedetect
     au! BufRead,BufNewFile *.vm setfiletype velocity
+    au! BufRead,BufNewFile *.arr setfiletype pyret
 augroup END
 
 filetype plugin on
