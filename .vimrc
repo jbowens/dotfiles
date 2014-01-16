@@ -31,7 +31,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set smartindent
-colorscheme wombat256mod
+colorscheme molokai
 
 "map <up> :tabr<cr>
 "map <down> :tabl<cr>
